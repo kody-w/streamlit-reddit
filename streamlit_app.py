@@ -8,7 +8,7 @@ key_dict = json.loads(st.secrets["textkey"])
 creds = service_account.Credentials.from_service_account_info(key_dict)
 db = firestore.Client(credentials=creds, project="streamlit-reddit-22078")
 
-st.header('Hello 🌎!')
+st.header('Hello 🌎! Welcome to the Best List of ChatGPT Prompts to Use')
 
 
 # Streamlit widgets to let a user create a new post
